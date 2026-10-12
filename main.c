@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 int main() {
-	//Hocam ben iki türlüsünüde yapıp atıcaktım bunu daha yeni bitirdim.
+	//Hocam ben iki tÃ¼rlÃ¼sÃ¼nÃ¼de yapip aticaktim bunu daha yeni bitirdim.
 
 
 
-	//float ondalıklı sayı yazmak için
+	//float ondalikli sayi yazmak iÃ§in
     float uruntutari, gelenpara;
 
     printf("Urun tutarini giriniz : ");
@@ -17,7 +17,7 @@ int main() {
 
     float paraustu = gelenpara - uruntutari;
 
-    //yuvarlama floattan dolayı
+    //yuvarlama floattan dolayi
     int paraustukurus = (int)(paraustu * 100 + 0.5);
 
     printf("\nPara Ustu: %.2f TL\n\n", paraustu);
